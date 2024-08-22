@@ -1,0 +1,369 @@
+.container .links{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 10rem;
+    justify-content: center;
+    position: relative;
+    padding: 0 90px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.4) 0px 10px 10px -5px ;
+    transition: all 0.3s ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato' , sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.container nav > ul{
+    list-style: none;
+}
+
+a:hover{
+    color:#4361ee;
+    font-size: 22px;
+    gap: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+nav .buttons{
+    display: flex;
+    gap:14px;
+}
+
+.primary-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: small;
+}
+
+.image-container img{
+    width :100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.image-container h1{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+    text-align: right;
+}
+
+.image-container p{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 200px;
+    color: #000;
+    text-align: right;
+}
+
+.image-container .primary-btn{
+    position: absolute;
+    top: 80%;
+    left: 80.5%;
+    transform: translate(-50%, -50%);
+    background-color: #4361ee;
+    color: #fff;
+    padding: 25px 28px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.image-container .primary-btn:hover{
+    font-size: 14px;
+    transition: all 0.4 ease;
+    cursor: pointer;
+    background-color: #395688;
+}
+
+.image-container-2 img{
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    position: relative;
+    margin-top: 9rem;
+    margin-left: 18rem;
+    margin-bottom: 3rem;
+}
+
+.image-container-2 .second-heading h1{
+    position: absolute;
+    top: 78rem;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 900;
+    color: #000;
+}
+
+.image-container-2 .second-heading p{
+    position: absolute;
+    top: 88rem;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.container .image-container-2 .failure-lists{
+    position: absolute;
+    top: 95rem;
+    left: 56.7%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #6e6b6b;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.container .image-container-2 .failure-lists i{
+    color: #10de55;
+    float: left;
+    padding-right: 0.5rem;
+}
+
+.container .my-plans h1{
+    margin-top: 10rem;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+
+.container .my-plans .plans-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container .my-plans .plans-box h1{
+    font-size: 20px;;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.container .my-plans .plans-box p{
+    font-size: 16px;
+    color: #6f6565;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+.container .image-container-3 img{
+    display: flex;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    left: 5.2%;
+    width: 90%;
+    margin-top: 3rem;
+    transition: all 0.3s ease;
+}
+
+.container .image-container-3 h2{
+    display: flex;
+    position: absolute;
+    margin-bottom: 6rem;
+    top: 135rem;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    left: 20rem;
+}
+
+.image-container-3 button{
+    display: flex;
+    top: 144rem;
+    left: 48.5rem;
+    position: absolute;
+    background-color: #4361ee;
+    border-radius: 5%;
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #000;
+    box-shadow: #000 10px 9px;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    font-size: 25px;
+}
+
+.image-container-3 button:hover{
+    font-size: 28px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #000000;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.container footer{
+    background-color: #000;
+    color: #fff;
+}
+
+footer .description-left h4{
+   font-size: 40px;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+   padding-top: 10rem;
+   margin-left: 10rem;
+   font-weight: 900;
+   color: #fff;
+   text-align: left;
+}
+
+footer .description-left p{
+    font-size: 18px;
+    margin-left: 10rem;
+    line-height: 28px;
+    color: #fff;
+    text-align: left;
+}
+
+footer .personal-info p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 10rem;
+    line-height: 30px;
+    color: #fff;
+    text-align: left;
+}
+
+footer .social-medias i{
+    display: inline-block;
+    font-size: 28px;
+    margin-left: 1.44rem;
+    margin-top: 10px;
+    margin-bottom: 8rem;
+}
+
+footer .social-medias .bx.bxl-facebook{
+    margin-left: 9.9rem;
+    background-color: #395688;
+    transition: all 0.3s ease;
+    border-radius: 40%;
+}
+footer .social-medias .bx.bxl-twitter{
+    background-color: #3880fd;
+    border-radius: 40%;
+    transition: all 0.3s ease;
+}
+footer .social-medias .bx.bxl-instagram{
+    background-color: #db1d50;
+    transition: all 0.3s ease;
+    border-radius: 40%;
+}
+footer .social-medias .bx.bxl-linkedin{
+    background-color: #122e5f;
+    transition: all 0.3s ease;
+    border-radius: 40%;
+}
+
+footer .social-medias .bx.bxl-facebook:hover{
+    font-size: 35px;
+    background-color: #2b497a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+footer .social-medias .bx.bxl-twitter:hover{
+    font-size: 35px;
+    background-color: #1f4071;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+footer .social-medias .bx.bxl-instagram:hover{
+    font-size: 35px;
+    background-color: #a4107a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+footer .social-medias .bx.bxl-linkedin:hover{
+    font-size: 35px;
+    background-color: #2b497a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+footer .description-right{
+    margin-left: 80rem;
+    display: flex;
+}
+
+footer .description-right h2{
+    position: absolute;
+    font-size: 25px;
+    top: 170rem;
+    font-weight: 200;
+    
+}
+
+footer .description-right input{
+    position: absolute;
+    top: 173rem;
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+}
+
+footer .description-right input::placeholder{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+footer .description-right .fourth-button{
+    display: flex;
+    position: absolute;
+    top: 177.5rem;
+    font-size: 20px;
+    color: rgb(255, 171, 16);
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: #fff 5px 5px;
+    transition: all 0.3s ease;
+}
+
+footer .description-right .fourth-button:hover{
+    font-size: 22px;
+    background-color: rgb(255, 171, 16);
+    color: #000;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
